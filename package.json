@@ -1,0 +1,25 @@
+{
+  "name": "co-render",
+  "version": "0.0.1",
+  "repository": "visionmedia/co-render",
+  "description": "Thunk-based template rendering for Co and others",
+  "keywords": [
+    "template",
+    "render",
+    "consolidate",
+    "engine"
+  ],
+  "dependencies": {
+    "consolidate": "~0.9.1",
+    "debug": "*"
+  },
+  "devDependencies": {
+    "mocha": "*",
+    "should": "*",
+    "co": "~1.5.2",
+    "ejs": "~0.8.4",
+    "swig": "~1.0.0-rc1",
+    "jade": "~0.35.0"
+  },
+  "license": "MIT"
+}
