@@ -10,7 +10,7 @@
     "engine"
   ],
   "dependencies": {
-    "consolidate": "~0.9.1",
+    "consolidate": "~0.10.0",
     "debug": "*"
   },
   "devDependencies": {
