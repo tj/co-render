@@ -15,8 +15,7 @@
   },
   "devDependencies": {
     "mocha": "*",
-    "should": "*",
-    "co": "~1.5.2",
+    "co": "~3.1.0",
     "ejs": "~0.8.4",
     "swig": "~1.0.0-rc1",
     "jade": "~0.35.0"
