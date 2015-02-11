@@ -1,6 +1,6 @@
 {
   "name": "co-render",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "repository": "visionmedia/co-render",
   "description": "Thunk-based template rendering for Co and others",
   "scripts": {
@@ -11,6 +11,9 @@
     "render",
     "consolidate",
     "engine"
+  ],
+  "files": [
+    "index.js"
   ],
   "dependencies": {
     "consolidate": "^0.11.0",
