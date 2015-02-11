@@ -15,7 +15,7 @@ co(function *(){
   };
 
 
-  var html = yield render('examples/user.html', { user: user, engine: 'swig' });
+  var html = yield render(__dirname + '/user.html', { user: user, engine: 'swig' });
   console.log(html);
 });
 
@@ -28,7 +28,7 @@ co(function *(){
   };
 
 
-  var html = yield render('examples/user.jade', { user: user });
+  var html = yield render(__dirname + '/user.jade', { user: user });
   console.log(html);
 });
 
@@ -41,7 +41,7 @@ co(function *(){
   };
 
 
-  var html = yield render('examples/user.ejs', { user: user, cache: true });
+  var html = yield render(__dirname + '/user.ejs', { user: user, cache: true });
   console.log(html);
 });
 
@@ -63,9 +63,9 @@ var luna = {
 };
 
 co(function *(){
-  var a = render('examples/user.html', { user: tobi, engine: 'swig' });
-  var b = render('examples/user.jade', { user: loki });
-  var c = render('examples/user.ejs', { user: luna });
+  var a = render(__dirname + '/user.html', { user: tobi, engine: 'swig' });
+  var b = render(__dirname + '/user.jade', { user: loki });
+  var c = render(__dirname + '/user.ejs', { user: luna });
   var html = yield [a, b, c];
   html = html.join('');
   console.log(html);

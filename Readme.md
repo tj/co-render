@@ -1,7 +1,7 @@
 
 # co-render
 
-  Template rendering for [co](https://github.com/visionmedia/co) using [consolidate.js](https://github.com/visionmedia/consolidate.js),
+  Template rendering for [co](https://github.com/tj/co) using [consolidate.js](https://github.com/tj/consolidate.js),
   providing support for dozens of template engines.
 
 ## Installation
