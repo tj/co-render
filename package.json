@@ -16,7 +16,7 @@
     "index.js"
   ],
   "dependencies": {
-    "consolidate": "^0.11.0",
+    "consolidate": "^0.13.0",
     "debug": "2"
   },
   "devDependencies": {
