@@ -19,7 +19,7 @@ module.exports = render;
  *
  * @param {String} view path
  * @param {Object} [opts]
- * @return {Function} thunk
+ * @return {Function} Promise
  * @api public
  */
 
@@ -28,8 +28,6 @@ function render(view, opts) {
   var ext = opts.engine || extname(view).slice(1);
   var engine = cons[ext];
 
-  return function(done){
-    debug('render %s with %j', view, opts);
-    engine(view, opts, done);
-  }
+  debug('render %s with %j', view, opts);
+  return engine(view, opts);
 }
