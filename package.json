@@ -4,7 +4,7 @@
   "repository": "visionmedia/co-render",
   "description": "Promise-based template rendering for Co and others",
   "scripts": {
-    "test": "make test"
+    "test": "mocha --reporter dot --bail"
   },
   "keywords": [
     "template",
