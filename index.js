@@ -25,7 +25,8 @@ module.exports = render;
 
 function render(view, opts) {
   opts = opts || {};
-  var ext = opts.engine || extname(view).slice(1);
+  var _extname = extname(view).slice(1);
+  var ext = opts.engine || _extname === 'jade' ? 'pug' : _extname;
   var engine = cons[ext];
 
   debug('render %s with %j', view, opts);

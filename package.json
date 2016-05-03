@@ -16,14 +16,14 @@
     "index.js"
   ],
   "dependencies": {
-    "consolidate": "^0.14.0",
+    "consolidate": "^0.14.1",
     "debug": "2"
   },
   "devDependencies": {
     "co": "4",
     "ejs": "2",
-    "jade": "1",
     "mocha": "2",
+    "pug": "^0.1.0",
     "swig": "1"
   },
   "license": "MIT"

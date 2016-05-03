@@ -4,9 +4,9 @@ var render = require('..');
 var co = require('co');
 
 describe('co-render', function(){
-  it('should render pug template', function(){
+  it('should render jade template', function(){
     return co(function *(){
-      var html = yield render(__dirname + '/fixtures/user.pug', {
+      var html = yield render(__dirname + '/fixtures/user.jade', {
         user: {
           name: 'tobi',
           species: 'ferret'
